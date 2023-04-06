@@ -1,13 +1,13 @@
 # social-network
 
-server
-create .env
-MONGO_URL=""
-yarn install
-yarn start
+#server
+#create .env
+#MONGO_URL=""
+#yarn install
+#yarn start
 
-client
-yarn install
-yarn start
+#client
+#yarn install
+#yarn start
 
-run with http://localhost:3000/
+#run with http://localhost:3000/
