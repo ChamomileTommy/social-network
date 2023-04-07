@@ -13,6 +13,8 @@ Project for social network by NodeJs and ReactJs
   yarn install
   yarn start
   #do not forget to create .env before yarn start
+  #in file .env, add endpoint of MongoDB
+  #MONGO_URL="endpoint of MongoDB"
 ```
 2.Build client
 
