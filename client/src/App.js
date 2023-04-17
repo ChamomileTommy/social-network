@@ -10,6 +10,20 @@ import {
 } from "react-router-dom";
 import { useContext } from "react";
 import { AuthContext } from "./context/AuthContext";
+import *as axios from "axios";
+
+// Add a request interceptor
+axios.defaults.baseURL = process.env.REACT_APP_API_URL;
+// axios.interceptors.request.use(
+//   config => {
+   
+//     config.
+//     return config
+//   },
+//   error => {
+//     Promise.reject(error)
+//   }
+// )
 
 function App() {
   const { user } = useContext(AuthContext);
